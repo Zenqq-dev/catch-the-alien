@@ -1,0 +1,51 @@
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-17px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.hint {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  background: url("../../../../public/images/hintBg.jpg");
+  padding: 30px 0 40px 0;
+  width: 334px;
+  height: 582px;
+  &__img {
+    height: 284px;
+    display: flex;
+    justify-content: center;
+  }
+  &__alien {
+    position: relative;
+    z-index: 3;
+  }
+  &__click {
+    position: absolute;
+    top: 87px;
+    left: 10px;
+    z-index: 1;
+
+    img {
+      animation: moveUpDown 2.3s infinite;
+    }
+  }
+  &__text {
+    font-size: 12px;
+    line-height: 167%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 60px;
+    padding: 0 26px;
+  }
+}

@@ -1,0 +1,17 @@
+.btn {
+  border: none;
+  font-family: "Open Sans";
+  font-weight: 600;
+  width: 208px;
+  height: 71px;
+  background: #f14338;
+  cursor: pointer;
+  color: white;
+  border-radius: 4px;
+  clip-path: polygon(2% 0, 98% 0, 100% 6%, 100% 100%, 80% 100%, 20% 100%, 0 100%, 0 6%);
+  font-size: 34px;
+  line-height: 88%;
+  text-align: center;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+}
