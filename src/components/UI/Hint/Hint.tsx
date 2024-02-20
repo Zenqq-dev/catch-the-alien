@@ -8,7 +8,7 @@ type Props = {
 };
 
 export default function Hint({ wasShowedHint, setWasShowedHint }: Props) {
-  const [alien, setAlien] = useState("green");
+  const [alien, setAlien] = useState("Green");
   const [text, setText] = useState("Нажимай на НЛО и отправляй их в далекий космос!");
   const [buttonText, setButtonText] = useState("Ясно");
   const [isBlocked, setIsBlocked] = useState(false);
