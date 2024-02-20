@@ -27,7 +27,7 @@ export default function AlienGenerator({ clickOnAlien, gameRef }: Props) {
     "На последний автобус не успеваю...",
   ];
 
-  const aliensColor = ["beige", "blue", "green", "pink", "yellow"];
+  const aliensColor = ["Beige", "Blue", "Green", "Pink", "Yellow"];
   const [spawnedAliens, setSpawnedAliens] = useState<AlienInfo[]>([]);
 
   const spawnAlien = () => {

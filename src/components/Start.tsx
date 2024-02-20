@@ -17,7 +17,7 @@ export default function Start({ start, setStart }: Props) {
           <div className='start__title_alien'>
             <Alien
               start={start}
-              alien='green'
+              alien='Green'
               bubbled
               preview
             />

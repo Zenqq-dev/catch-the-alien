@@ -14,7 +14,7 @@ function App() {
   const timeHandler = () => {
     const timeId = setInterval(() => {
       setTime((prev) => {
-        const newTime = prev - 0.5;
+        const newTime = prev - 1;
         if (newTime <= 0) {
           clearInterval(timeId);
           setTimeout(setShowGame, 2020);
